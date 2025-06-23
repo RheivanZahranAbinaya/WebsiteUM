@@ -1,0 +1,72 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f2f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.kartu-profil {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.gambar-profil {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 16px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gambar-profil img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h2 {
+    margin: 8px 0;
+    color: #333;
+}
+
+h3 {
+    margin: 4px 0 16px;
+    color: #666;
+    font-size: 14px;
+}
+
+.deskripsi {
+    color: #999;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.tautan-sosial {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tautan-sosial a {
+    text-decoration: none;
+    background-color: #e5e7eb;
+    color: #333;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+.tautan-sosial a:hover {
+    background-color: #cbd5e1;
+}

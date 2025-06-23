@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartu Profil</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    body {
+       font-family: 'Segoe UI', sans-serif;
+       margin: 0;
+       height: 100vh;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background: linear-gradient(-45deg, #ff6ec4, #7873f5, #4ade80, #facc15);
+       background-size: 400% 400%;
+       animation: bergerak 15s ease infinite;
+}
+
+@keyframes bergerak {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+    </style>
+    
+</head>
+<body>
+    <div class="kartu-profil">
+        <div class="gambar-profil">
+            <img src="Megumin.jpeg" alt="">
+        </div>
+        <h2>Rheivan Zahran A.</h2>
+        <h3>I'm a Programmer!, Yes! Really :3</h3>
+        <p class="deskripsi">Right now there is only Github!</p>
+        <div class="tautan-sosial">
+            <a href="" class="youtube">📺 YouTube</a>
+            <a href="#" class="instagram">📸 Instagram</a>
+            <a href="#" class="blog">📝 Work</a>
+            <a href="https://github.com/RheivanZahranAbinaya" class="Github">💼 Github</a>
+        </div>
+    </div>
+</body>
+</html>
